@@ -1,0 +1,17 @@
+<routes>
+    <vType accel="1.0" decel="5.0" id="Car" length="3.0" maxSpeed="100.0" sigma="0.0" />
+    <vType accel="1.0" decel="5.0" id="Car1" length="3.0" maxSpeed="50.0" sigma="0.0" />
+   
+
+    <route id="route0" edges="R1"/>
+    <route id="route1" edges="R2"/>
+   
+<!-- MSSV: 1851120001 => n= 1 -->
+    <vehicle depart="101" id="veh0" route="route0" type="Car" color="1,0,0"  />
+    <vehicle depart="121" id="veh1" route="route0" type="Car" color="1,0,0" />
+    <vehicle depart="131" id="veh2" route="route0" type="Car" color="1,0,0" />
+    <vehicle depart="01" id="veh3" route="route1" type="Car1" color="1,0,1"/>
+    <vehicle depart="106" id="veh4" route="route1" type="Car1" color="1,0,1" />
+    <vehicle depart="116" id="veh5" route="route1" type="Car1" color="1,0,1"/>
+
+</routes>
